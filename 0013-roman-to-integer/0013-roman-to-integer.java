@@ -1,8 +1,7 @@
 class Solution {
     public int romanToInt(String s) {
         int sum = 0;
-        int strLen = s.length();
-       for(int i = strLen-1; i >= 0; i--){
+       for(int i = s.length()-1; i >= 0; i--){
             if(s.charAt(i) == 'I'){
                 sum += 1;
             }
